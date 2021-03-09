@@ -27,6 +27,32 @@ chatbot = ChatBot(
     database_uri='sqlite:///database.sqlite3'
 ) 
 
+listtrainer = ListTrainer(chatbot)
+
+listtrainer.train([
+    "Saransh",
+    "Hi Saransh!\nClass Khatam ho gai!\nOK Byeeeeeee!",
+])
+
+listtrainer.train([
+    "Saransh",
+    "Hi Saransh!\nClass Khatam ho gai!\nOK Byeeeeeee!",
+])
+
+listtrainer.train([
+    "Saransh",
+    "Hi Saransh!\nClass Khatam ho gai!\nOK Byeeeeeee!",
+])
+
+listtrainer.train([
+    "Saransh",
+    "Hi Saransh!\nClass Khatam ho gai!\nOK Byeeeeeee!",
+])
+
+listtrainer.train([
+    "Saransh",
+    "Hi Saransh!\nClass Khatam ho gai!\nOK Byeeeeeee!",
+])
 
 # Training with English Corpus Data 
 trainer_corpus = ChatterBotCorpusTrainer(chatbot)
