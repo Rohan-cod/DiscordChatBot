@@ -11,6 +11,8 @@ chatbot = ChatBot(
     storage_adapter='chatterbot.storage.SQLStorageAdapter',
     logic_adapters=[
         'chatterbot.logic.BestMatch',
+	'chatterbot.logic.TimeLogicAdapter',
+	'chatterbot.logic.MathematicalEvaluation',
         {
         'import_path': 'chatterbot.logic.BestMatch',
         'default_response': 'I\'m sorry, but I don\'t understand. I am still learning.',
