@@ -1,3 +1,0 @@
-# DiscordChatBot
-
-Discord Chat Bot 🤖
