@@ -1,2 +1,3 @@
 discord.py
+pytz
 chatterbot==1.0.0
