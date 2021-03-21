@@ -80,7 +80,7 @@ async def on_message(message):
 					print(message.author)
 					if str(member) == str(message.author):
 						continue
-					if str(member) == 'Taggy#8351':
+					if str(member) == 'Shinchan#8212':
 						continue
 					await message.channel.send(str('<@{member}>'.format(member=member.id)))
 
